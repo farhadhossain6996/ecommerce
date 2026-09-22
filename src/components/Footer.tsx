@@ -18,9 +18,9 @@ import {
 
 const Footer = () => {
   return (
-    <div className="py-24 flex justify-between gap-24 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 bg-gray-100 text-sm mt-24">
+    <div className="py-24 flex  flex-col justify-between gap-24 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 bg-gray-100 text-sm mt-24">
       {/* Top */}
-      <div className="flex flex-col md:flex-row  justify-between gap-24">
+      <div className="flex  flex-col  justify-between md:flex-row  gap-24">
         
         {/* Left */}
         <div className="w-full lg:w-1/4 md:w-1/2 flex flex-col gap-8">
@@ -45,19 +45,60 @@ const Footer = () => {
             <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-700 transition-colors">
               <FaPinterestP className="w-5 h-5" />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
               <FaTwitter className="w-5 h-5" />
             </a>
           </div>
         </div>
 
         {/* Center */}
-        <div className="hidden lg:flex justify-between w-1/4"></div>
+        <div className="hidden lg:flex justify-between w-1/2">
+        
+        <div className="flex flex-col justify-between">
+<h1 className='font-medium text-lg'>Company</h1>
+<div className="flex flex-col gap-6">
+  <Link href="">About Us</Link>
+  <Link href="">Careers</Link>
+  <Link href="">Affiliates</Link>
+  <Link href="">Blog</Link>
+  <Link href="">Contact Us</Link>
+</div>
+
+
+        </div>
+        <div className="flex flex-col justify-between">
+<h1 className='font-medium text-lg'>Company</h1>
+<div className="flex flex-col gap-6">
+  <Link href="">About Us</Link>
+  <Link href="">Careers</Link>
+  <Link href="">Affiliates</Link>
+  <Link href="">Blog</Link>
+  <Link href="">Contact Us</Link>
+</div>
+
+
+        </div>
+        <div className="flex flex-col justify-between">
+<h1 className='font-medium text-lg'>Company</h1>
+<div className="flex flex-col gap-6">
+  <Link href="">About Us</Link>
+  <Link href="">Careers</Link>
+  <Link href="">Affiliates</Link>
+  <Link href="">Blog</Link>
+  <Link href="">Contact Us</Link>
+</div>
+
+
+        </div>
+        
+
+
+        </div>
 
         {/* Right */}
-        <div className="w-full lg:w-1/4 md:w-1/2 flex flex-col gap-8">
+        <div className=" w-full lg:w-1/4 md:w-1/2    flex flex-col gap-8">
           <h1 className='font-medium text-lg'>SUBSCRIBE</h1>
-          <p>Be the first to get the latest news about trends, promotions, and much more!</p>
+          <p >Be the first to get the latest news about trends, promotions, and much more!</p>
 
           <div className="flex">
             <input type="text" placeholder='Email address' className='p-4 w-3/4 outline-none' />
@@ -99,9 +140,31 @@ const Footer = () => {
 
       </div>
       {/* Bottom */}
-      <div className=""></div>
+      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
+
+        <div className="">2026 Lama Shop</div>
+
+        <div className="flex flex-col gap-8 md:flex-row ">
+          <div className="">
+            <span className='text-gray-500 mr-4'>Language</span>
+            <span>United State | English</span>
+          </div>
+          <div className="">
+            <span className='text-gray-500 mr-4'>Currency</span>
+            <span className='font-medium'> $ USD</span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
 
 export default Footer
+
+
+
+
+
+
+
+
