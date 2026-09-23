@@ -1,3 +1,5 @@
+import Add from '@/components/Add'
+import CustomizeProducts from '@/components/CustomizeProducts'
 import ProductImages from '@/components/ProductImages'
 import React from 'react'
 
@@ -11,7 +13,7 @@ const SinglePage = () => {
 {/* Texts */}
 <div className="w-full lg:w-1/2 flex flex-col gap-6 ">
 
-<div className="">
+<div className="mt-12">
 <h1 className=' text-4xl font-medium' >Product Name</h1>
 <p className='text-gray-500'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore totam vel earum veniam incidunt, veritatis ex error impedit perspiciatis beatae.</p>
 <div className='h-2 bg-gray-100 '/>
@@ -21,9 +23,30 @@ const SinglePage = () => {
   <h2 className=' font-medium text-2xl'>$49</h2>
 </div>
 <div className='h-2 bg-gray-100 '/>
+<CustomizeProducts/>
+<Add/>
+
+</div>
+
+<div className="h-2 bg-gray-100">
+<div className="text-sm">
+  <h4 className='font-medium'>Title</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique in adipisci sapiente sunt, id facere totam error iste enim earum eveniet tempora autem eaque, eos quasi excepturi, est consequuntur cumque.</p>
+</div>
+<div className="text-sm">
+  <h4 className='font-medium'>Title</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique in adipisci sapiente sunt, id facere totam error iste enim earum eveniet tempora autem eaque, eos quasi excepturi, est consequuntur cumque.</p>
+</div>
+<div className="text-sm">
+  <h4 className='font-medium'>Title</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique in adipisci sapiente sunt, id facere totam error iste enim earum eveniet tempora autem eaque, eos quasi excepturi, est consequuntur cumque.</p>
+</div>
+
 
 
 </div>
+
+
 
 
 </div>
