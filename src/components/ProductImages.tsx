@@ -4,22 +4,22 @@ const images = [
     {
         id: 1,
         url: "#",
-        image: "/ReBgImage.png"
+        image: "/Teal Blue Floral Lace Fabric.jpg"
     },
     {
         id: 2,
         url: "#",
-        image: "/ReBgImage.png"
+        image: "/Royal Yellow Lace Fabric.jpg"
     },
     {
         id: 3,
         url: "#",
-        image: "/slider2.jpg"
+        image: "/Vintage Dusty Rose Lace (2).jpg"
     },
     {
         id: 4,
         url: "#",
-        image: "/slider3.jpg"
+        image: "/Magenta Rose Lace Fabric.jpg"
     },
 ]
 

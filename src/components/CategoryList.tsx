@@ -5,14 +5,14 @@ import Link from 'next/link'
 const CategoryList = () => {
   // ডামি ডাটা, পরবর্তীতে আপনি API বা Database থেকে ডাটা আনতে পারবেন
   const categories = [
-    { id: 1, name: 'Category Name', href: '/list?cat=test', image: '/slider3.jpg' },
-    { id: 2, name: 'Category Name', href: '/list?cat=test', image: '/slider3.jpg' },
-    { id: 3, name: 'Category Name', href: '/list?cat=test', image: '/slider3.jpg' },
-    { id: 4, name: 'Category Name', href: '/list?cat=test', image: '/slider3.jpg' },
-    { id: 5, name: 'Category Name', href: '/list?cat=test', image: '/slider3.jpg' },
-    { id: 6, name: 'Category Name', href: '/list?cat=test', image: '/slider3.jpg' },
-    { id: 7, name: 'Category Name', href: '/list2?cat=test', image: '/slider3.jpg' },
-    { id: 8, name: 'Category Name', href: '/list?cat=test', image: '/slider3.jpg' },
+    { id: 1, name: 'Blush Pink Floral Lace Fabric', href: '/list?cat=test', image: '/Blush Pink Floral Lace Fabric.jpg' },
+    { id: 2, name: 'Fuchsia Butterfly Printed Fabric', href: '/list?cat=test', image: '/Fuchsia Butterfly Printed Fabric.jpg' },
+    { id: 3, name: 'Category Name', href: '/list?cat=test', image: '/Teal Blue Floral Lace Fabric.jpg' },
+    { id: 4, name: 'Midnight Black Lace Fabric', href: '/list?cat=test', image: '/Midnight Black Lace Fabric.jpg' },
+    { id: 5, name: 'Vintage Dusty Rose Lace', href: '/list?cat=test', image: '/Vintage Dusty Rose Lace.jpg' },
+    { id: 6, name: 'Royal Yellow Lace Fabric', href: '/list?cat=test', image: '/Royal Yellow Lace Fabric.jpg' },
+    { id: 7, name: 'Midnight Black Lace Fabric1', href: '/list2?cat=test', image: '/Midnight Black Lace Fabric1.jpg' },
+    { id: 8, name: 'Blush Pink Floral Lace Fabric', href: '/list?cat=test', image: '/Blush Pink Floral Lace Fabric.jpg' },
   ]
 
   return (
@@ -22,7 +22,7 @@ const CategoryList = () => {
           <Link 
             key={category.id} 
             href={category.href} 
-            className='flex-shrink-0 w-[250px] sm:w-[280px] lg:w-[320px]'
+            className='flex-shrink-0 w-62.5 sm:w-70 lg:w-[320px]'
           >
             <div className="relative bg-slate-100 w-full h-96">
               <Image 

@@ -3,16 +3,16 @@ import Link from 'next/link'
 import React from 'react'
 
 const ProductList = () => {
-  // ডামি প্রোডাক্ট ডাটা (পরে আপনি এখানে API বা Database থেকে ডাটা ব্যবহার করতে পারবেন)
+ 
   const products = [
-    { id: 1, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/slider2.jpg' },
-    { id: 2, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/slider2.jpg' },
-    { id: 3, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/slider2.jpg' },
-    { id: 4, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/slider2.jpg' },
-    { id: 5, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/slider2.jpg' },
-    { id: 6, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/slider2.jpg' },
-    { id: 7, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/slider2.jpg' },
-    { id: 8, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/slider2.jpg' },
+    { id: 1, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/Blush Pink Floral Lace Fabric.jpg', image2: '/Vintage Dusty Rose Lace.jpg' },
+    { id: 2, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/Midnight Black Lace Fabric1.jpg', image2: '/Vintage Dusty Rose Lace (2).jpg' },
+    { id: 3, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/Fuchsia Butterfly Printed Fabric.jpg' },
+    { id: 4, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/Teal Blue Floral Lace Fabric.jpg', image2: '/Royal Yellow Lace Fabric.jpg' },
+    { id: 5, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/slider1.jpg', image2: '/Blush Pink Floral Lace Fabric (2).jpg' },
+    { id: 6, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/Vintage Dusty Rose Lace (2).jpg', image2: '/Midnight Black Lace Fabric1.jpg' },
+    { id: 7, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/Royal Yellow Lace Fabric.jpg', image2: '/Magenta Rose Lace Fabric.jpg' },
+    { id: 8, name: 'Product Name', price: 49, description: 'My description', href: '/test', image1: '/Blush Pink Floral Lace Fabric (2).jpg', image2: '/Magenta Rose Lace Fabric.jpg' },
   ]
 
   return (

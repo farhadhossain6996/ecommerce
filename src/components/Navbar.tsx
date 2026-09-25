@@ -24,9 +24,11 @@ const Navbar = () => (
 
             <div className="w-1/3 xl:w-1/2 flex items-center gap-12 ">
             <Link href="/" className='flex items-center gap-3 '>
-<Image src="/public/vercel.svg" alt="" width={24} height={24}/>
+<Image src="/logo.png" alt="" width={100} height={70}/>
 
-            <div className="text-2xl tracking-wide">LOGO</div>
+            <div className="text-2xl tracking-wide">
+                
+            </div>
             </Link>
             <div className="hidden xl:flex gap-4">
                 <Link href="/">HomePage</Link>

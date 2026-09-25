@@ -1,8 +1,28 @@
+
+"use client";
+
 import CategoryList from "@/components/CategoryList";
 import ProductList from "@/components/ProductList";
 import Slider from "@/components/Slider";
+import { WixClientContext } from "@/context/wixContext";
+import React, { useContext, useEffect } from "react";
 
 const HomePage = () => {
+  const wixClient: any = useContext(WixClientContext);
+
+  useEffect(() => {
+    const getProducts = async () => {
+      try {
+        const res = await wixClient.products.queryProducts().find();
+        console.log("Fetched Products:", res);
+      } catch (error) {
+        console.error("Failed to fetch products:", error);
+      }
+    };
+
+    getProducts();
+  }, [wixClient]);
+
   return (
     <div className="">
 

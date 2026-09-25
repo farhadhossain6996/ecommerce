@@ -65,8 +65,8 @@ const SinglePage = () => {
         </div>
 
       </div>
-    </div>
+    </div> 
   )
 }
 
-export default SinglePage
+export default SinglePage  
